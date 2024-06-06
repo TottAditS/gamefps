@@ -14,7 +14,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     public Transform firePoint;
     public GameObject npcDeadPrefab;
 
-    [HideInInspector]
+    //[HideInInspector]
     public Transform playerTransform;
     [HideInInspector]
     public SC_EnemySpawner es;
